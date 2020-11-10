@@ -31,6 +31,7 @@ class _PersegiPanjangState extends State<PersegiPanjang> {
                 border: OutlineInputBorder(),
                 labelText: 'panjang'
               ),
+              keyboardType: TextInputType.number,
               controller: panjangController,
             ),
           ),
@@ -41,6 +42,7 @@ class _PersegiPanjangState extends State<PersegiPanjang> {
                   border: OutlineInputBorder(),
                   labelText: 'lebar'
               ),
+              keyboardType: TextInputType.number,
               controller: lebarController,
             ),
 

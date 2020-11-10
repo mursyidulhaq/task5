@@ -30,6 +30,7 @@ class _PersegiState extends State<Persegi> {
               border: OutlineInputBorder(),
               labelText: 'inputkan sisi persegi'
             ),
+            keyboardType: TextInputType.number,
 
 
           ),

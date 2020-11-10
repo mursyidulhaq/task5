@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'package:toast/toast.dart';
 
@@ -30,6 +32,7 @@ class _SegitigaState extends State<Segitiga> {
                   border: OutlineInputBorder(),
                   labelText: 'Alas'
               ),
+              keyboardType: TextInputType.number,
               controller: alasController,
             ),
           ),
@@ -40,6 +43,7 @@ class _SegitigaState extends State<Segitiga> {
                   border: OutlineInputBorder(),
                   labelText: 'Tinggi'
               ),
+              keyboardType: TextInputType.number,
               controller: tinggiController,
             ),
 
